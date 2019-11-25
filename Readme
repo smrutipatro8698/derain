@@ -1,0 +1,7 @@
+functions.py has basic architecture for convolutional gan. 6 encoding layers and 5 decoding layers are defined
+
+Run cgan0.py for training the images. Some values are hardcoded so that will have to be altered for different datasets
+
+the current code runs for resize_clean images of dimension 270 x 480 x 3. The model is stored in ADAS/Code/cgan/model1
+
+For testing any image, just run cgan0_test.py and enter the path of the image to be tested.
